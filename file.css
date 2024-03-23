@@ -1,0 +1,175 @@
+* {
+  padding: 5px;
+  margin: 5px;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: white;
+  display: flex;
+  width: 100%;
+  height: 160px;
+  justify-content: center;
+  text-align: center;
+}
+
+header img {
+  width: 400px;
+  height: 100x;
+  justify-content: center;
+}
+
+header > li {
+  text-align: center;
+  list-style: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+li img {
+  width: 45px;
+  height: 45px;
+  justify-content: left;
+}
+
+#A:hover {
+  color: crimson;
+  transform: scale(1.3);
+}
+
+#B:hover {
+  color: crimson;
+  transform: scale(1.3);
+}
+
+#C:hover {
+  color: crimson;
+  transform: scale(1.3);
+}
+
+#D:hover {
+  color: crimson;
+  transform: scale(1.3);
+}
+
+#E:hover {
+  color: crimson;
+  transform: scale(1.3);
+}
+
+/* main 시작 */
+
+main {
+  display: inline-block;
+  justify-content: space-between;
+  text-align: left;
+  list-style: none;
+  background-color: lightyellow;
+}
+
+input {
+  width: 500px;
+  height: 45px;
+  justify-content: center;
+  text-align: center;
+  border-radius: 10px;
+}
+
+button {
+  width: 100px;
+  height: 45px;
+  border-radius: 15px;
+  color: white;
+  outline: 2px;
+  background-color: crimson;
+}
+
+li {
+  list-style: none;
+  justify-content: space-around;
+  position: relative;
+  word-break: break-all;
+  text-overflow: initial;
+  text-align: center;
+}
+
+/* 목록 */
+.sam_poo {
+  filter: brightness(0.5);
+}
+.sam_poo:hover {
+  filter: brightness(1);
+}
+
+.clo {
+  filter: brightness(0.5);
+}
+
+.clo:hover {
+  filter: brightness(1);
+}
+
+.energy {
+  filter: brightness(0.5);
+}
+
+.energy:hover {
+  filter: brightness(1);
+}
+
+.washing {
+  filter: brightness(0.5);
+}
+
+.washing:hover {
+  filter: brightness(1);
+}
+
+.tooth {
+  filter: brightness(0.5);
+}
+
+.tooth:hover {
+  filter: brightness(1);
+}
+.poo {
+  filter: brightness(0.5);
+}
+.poo:hover {
+  filter: brightness(1);
+}
+
+.neck {
+  filter: brightness(0.5);
+}
+
+.neck:hover {
+  filter: brightness(1);
+}
+
+main img {
+  width: 300px;
+  height: 500px;
+  justify-content: center;
+  text-align: center;
+}
+
+#s1 {
+  display: flex;
+}
+#s2 {
+  display: flex;
+}
+
+footer {
+  background-color: crimson;
+  height: 150px;
+  width: 100%;
+  text-align: left;
+  color: aliceblue;
+}
+
+footer > div {
+  font-size: 15px;
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
