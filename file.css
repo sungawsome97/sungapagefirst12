@@ -84,8 +84,10 @@ button {
 }
 
 #ABC {
-justify-content: center;
+  justify-content: center;
+  text-align: center;
 }
+
 li {
   list-style: none;
   justify-content: space-around;
@@ -176,3 +178,4 @@ footer > div {
   color: white;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
+
